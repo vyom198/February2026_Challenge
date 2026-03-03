@@ -1,6 +1,5 @@
 package com.vs.february2026_challenge.stillConnected
 
-import androidx.annotation.Size
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
