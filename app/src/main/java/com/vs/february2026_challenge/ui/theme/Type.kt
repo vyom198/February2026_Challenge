@@ -6,7 +6,13 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.vs.february2026_challenge.R
-
+val figtree = FontFamily(
+    fonts = listOf(
+        androidx.compose.ui.text.font.Font(
+            resId = R.font.figtree_variablefont_wght,
+        )
+    )
+)
 val SansHeadline = FontFamily(
     fonts = listOf(
        androidx.compose.ui.text.font.Font(
@@ -21,7 +27,22 @@ val inter = FontFamily(
         )
     )
 )
+val Typography.figtitle : TextStyle
+    get() = TextStyle(
+        fontFamily = figtree,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 32.sp,
+        lineHeight = 40.sp,
 
+        )
+val Typography.figregular : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
+        lineHeight = 20.sp,
+
+        )
 val Typography.title : TextStyle
     get() = TextStyle(
         fontFamily = inter,
@@ -46,6 +67,14 @@ val Typography.subtitle : TextStyle
         fontWeight = FontWeight.SemiBold,
         fontSize = 22.sp,
         lineHeight = 32.sp,
+
+        )
+val Typography.lastactivetitle : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 16.sp,
+        lineHeight = 20.sp,
 
         )
 
