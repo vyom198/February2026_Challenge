@@ -14,6 +14,49 @@ val SansHeadline = FontFamily(
        )
     )
 )
+val inter = FontFamily(
+    fonts = listOf(
+        androidx.compose.ui.text.font.Font(
+            resId = R.font.inter_variablefont_opsz_wght
+        )
+    )
+)
+
+val Typography.title : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 28.sp,
+        lineHeight = 32.sp,
+
+    )
+
+val Typography.regular : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.Normal,
+        fontSize = 15.sp,
+        lineHeight = 20.sp,
+        letterSpacing = 0.sp
+
+        )
+val Typography.subtitle : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 22.sp,
+        lineHeight = 32.sp,
+
+        )
+
+val Typography.buttonTitle : TextStyle
+    get() = TextStyle(
+        fontFamily = inter,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 17.sp,
+        lineHeight = 24.sp,
+
+        )
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = SansHeadline,

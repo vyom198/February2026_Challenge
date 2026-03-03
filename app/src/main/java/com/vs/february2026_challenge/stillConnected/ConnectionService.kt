@@ -45,6 +45,7 @@ class ConnectionService(
                     val connected = networkCapabilities.hasCapability(
                         NetworkCapabilities.NET_CAPABILITY_VALIDATED
                     )
+
                     if(connected) trySend(ConnectionState.CONNECTED)
 
                 }

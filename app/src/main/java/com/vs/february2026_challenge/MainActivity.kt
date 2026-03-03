@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.vs.february2026_challenge.missedMessages.MissedMessagesRoot
 import com.vs.february2026_challenge.stillConnected.StillConnectedRoot
 import com.vs.february2026_challenge.stillConnected.StillConnectedScreen
 import com.vs.february2026_challenge.ui.theme.February2026_ChallengeTheme
@@ -21,7 +22,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             February2026_ChallengeTheme {
-                StillConnectedRoot()
+                //StillConnectedRoot()
+                MissedMessagesRoot()
             }
         }
     }
