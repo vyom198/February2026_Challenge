@@ -17,9 +17,9 @@ val SansHeadline = FontFamily(
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = SansHeadline,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
+        fontWeight = FontWeight.Medium,
+        fontSize = 25.sp,
+        lineHeight = 32.sp,
         letterSpacing = 0.5.sp
     )
     /* Other default text styles to override
